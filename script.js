@@ -1,4 +1,3 @@
-window.onload= fetchData();
 const bar = document.getElementById("bar");
 const nav = document.getElementById("navbar");
 const close = document.getElementById("close");
@@ -34,7 +33,7 @@ function fetchData(){
     })
 }
 
-
+fetchData()
 
 
 function displayProducts(data)
